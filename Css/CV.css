@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+img{
+    border: 0.5px solid black;
+    width: 13vw;
+    height: 14vw;
+    border-radius: 10px;
+}
+header{
+    margin:5px;
+}
+header h1{
+
+    font-family: "Roboto Slab", serif;
+    font-size: 0.75rem;
+}
+header p{
+    font-size: 6px;
+    color: rgb(13, 0, 255);
+    font-weight: 600;
+    margin-top: 5px;
+}
+.education h2{
+    margin: 5px;
+    font-size: 0.65rem;
+}
+
+.education ul{
+    font-size: 8px;
+    margin-left: 20px;
+}
+.list-one{
+    font-weight: 550;
+    font-size: 9.3px;
+}
+.Work h2{
+    margin: 5px;
+    font-size: 0.65rem;
+}
+.Work .list-tree{
+    font-weight: 550;
+    font-size: 9.3px;
+    margin-block: 7px;
+}
+.Work ul{
+    font-size: 8px;
+    margin-left: 20px;
+}
+.list-one p:first-child{
+    margin-top: 5px;
+}
+.list-two{
+    font-size: 9.3px;
+    font-weight: 550;
+}
+ul p{
+    font-size: 7.5px;
+    font-weight: 550;
+}
+span{
+    font-weight: normal;
+}
+.child-list li{
+    margin: 2px;
+    font-size: 8px;
+}
+.contact .contact_link{
+    font-size: 7.5px;
+    font-weight: 550;
+    margin-left: 4px;
+    margin-top: 1.2px;
+}
+.contact .contact_link a{
+    transition: all 0.4s ease;
+}
+.contact .contact_link a:hover{
+    color: hotpink;
+    text-decoration: none;
+}
+.contact-list{
+    margin-bottom: 10px;
+}
+.contact h2{
+    font-size: 0.65rem;
+    margin: 5px;
+}
+.contact p{
+    font-size: 7.5px;
+    font-weight: 550;
+    margin-left: 4px;
+}
+.education .list-one{
+    margin-block: 7px;
+}
+.education .list-two{
+    margin-block: 7px;
+}
+.education .list-tree{
+    margin-block: 7px;
+    font-weight: 550;
+    font-size: 9.3px;
+}
